@@ -1,0 +1,9 @@
+Package: com.justdie.hidy
+Name: hidy
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: This tweak allows you to hide and change multiple aspects of your home screen.
+Maintainer: justdie
+Author: justdie
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

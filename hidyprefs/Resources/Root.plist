@@ -1,0 +1,205 @@
+    
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the dock</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>hideDockEnabled</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the dock icons</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>hideDockIcons</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the top bar</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>hideTopBar</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide labels under apps</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>hideLabels</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the 3 dots</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>HideDots</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the lock screen time and date</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>HideHome</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the notification bubble</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>hideBubble</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the battery icon</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>hideBatteryIcon</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the wifi icon</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>hideWifiIcon</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Hide the library blur</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>HideLibraryBlur</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Change the battery percentage text</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>changeBatteryText</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>placeholder</key>
+				<string>Custom battery label  (leave empty to hide it):</string>
+				<key>key</key>
+				<string>batteryLabel</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>label</key>
+				<string>Change the carrier text</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>key</key>
+				<string>changeCarrierText</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>com.justdie.hidyprefs</string>
+				<key>placeholder</key>
+				<string>Custom carrier label (leave empty to hide it):</string>
+				<key>key</key>
+				<string>carrierLabel</string>
+				<key>PostNotification</key>
+				<string>com.justdie.hidyprefschanged</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>hidyprefs</string>
+	</dict>
+</plist>
+
