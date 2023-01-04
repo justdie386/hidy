@@ -6,4 +6,5 @@ Description: This tweak allows you to hide and change multiple aspects of your h
 Maintainer: justdie
 Author: justdie
 Section: Tweaks
+Icon: https://raw.githubusercontent.com/justdie386/hidy/main/hidyprefs/Resources/icon.png
 Depends: mobilesubstrate (>= 0.9.5000)
