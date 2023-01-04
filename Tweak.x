@@ -142,11 +142,9 @@ self.hidden = YES;
 
   - (void)setText:(NSString *)text {
     if ([text containsString:@"%"]) {
-      if (![text containsString:@":"]) {
         if (changeBatteryText) {
         %orig(batteryLabel);
-      }
-    } 
+      } 
   }
     if (![text containsString:@"%"]) {
       if (![text containsString:@":"]) {
@@ -155,8 +153,11 @@ self.hidden = YES;
       }
     }
     }
-    if (![text containsString:@"%"]) {
       if ([text containsString:@":"]) {
+      %orig(text);
+    }
+  if ([text containsString:@"%"]) {
+    if (!changeBatteryText){
       %orig(text);
     }
   }
@@ -165,6 +166,11 @@ self.hidden = YES;
         if (!changeCarrierText) {
         %orig(text);
       }
+    }
+  }
+  if ([text containsString:@":"]) {
+    if (hideTime){
+      self.hidden = YES;
     }
   }
 }
