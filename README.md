@@ -1,6 +1,6 @@
 Hide it, why the fuck not?
 
-to build it run: make do
+to build it run: ```make do```
 
 Here is what it does: Change the carrier label Change the battery percentage label Hide the wifi icon Hide the cellular data icon Hide the time Hide the label under applications Hide the 3 dots on the homescreen Hide the homescreen Hide the dock icons Hide the dock background blur Hide the full dock Hide the notification bubble Hide the full top bar
 
