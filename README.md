@@ -1,3 +1,5 @@
+NOTE i am never updating this, objective-c is ass
+
 Hide it, why the fuck not?
 
 to build it run: ```make do```
