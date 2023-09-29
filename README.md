@@ -1,4 +1,4 @@
-NOTE i am never updating this, objective-c is ass
+NOTE i am maybe updating this? Or maybe know i guess we'll see how badly i don't like objective-c
 
 Hide it, why the fuck not?
 
