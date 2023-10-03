@@ -1,2 +1,3 @@
  bash -c "$(curl -fsSL https://raw.githubusercontent.com/theos/theos/master/bin/install-theos)"
- make do
+ bash make
+echo The deb file has been built, you need to copy it over to your device and install it manually, or edit the makefile to add your phone's ip adress and instead run $ make install to get it installed on your phone automaticly
