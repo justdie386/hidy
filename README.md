@@ -25,4 +25,13 @@ Rootless works with derootifier but the respring will not work apparently, so yo
 
 Big thanks to windi and King Luki for helping me, as this is my first tweak/project!!!
 
-It behaves really weird on taurine 14.3+ with kdf (tested on 14.8.1 iphone 7) so yeah you shouldn't use it on that
+List of supported jailbreaks:
+- Checkra1n
+- Palera1n
+- Dopamine (derootifier)
+
+Unsupported jailbreaks:
+- Taurine-kdf (It works but it behaves very weird and causes random respring and enter safe mode for no apparent reason)
+
+Any other jailbreaks that haven't been mentioned could work but are untested.
+The build is for ios 14.0 + but if you know what you are doing then you should be able to change it to work on a lower ios version just change the makefile's minimum version.
