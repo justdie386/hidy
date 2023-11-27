@@ -1,5 +1,4 @@
-NOTE i am maybe updating this? Or maybe know i guess we'll see how badly i don't like objective-c
-
+Never touching objective-c ever again, worst mistake i ever made
 Hide it, why the fuck not?
 
 to build it run: ```make do```
